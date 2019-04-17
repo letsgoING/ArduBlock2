@@ -23,7 +23,7 @@ Es gibt
 - lange analoge Variablen (long)
 - dezimale analoge Variablen (float)
 - Zeichen-Variablen (char) 
-- Tabellen für (kurze/lange/dezimale) analoge Variablen (intX/float-Array)
+- Tabellen für (kurze/lange/dezimale) analoge Variablen (intX/long/float-Array)
 - Zeichenketten (char-Array)
 
 Alle Variablen können als
@@ -35,7 +35,7 @@ Außerdem können die Datentypen in jeweils andere Typen gewandelt werden (cast 
 
 ### Workspace zoomen ###
 In unserer Version von ArduBlock ist es möglich die Programmierfläche zu vergrößern oder verkleinern.
-So kann das Fenster immer der Programmgröße und Auflösung angepasst werden.
+So kann das Fenster immer der Programmgröße und Bildschirm-Auflösung angepasst werden.
 
 ### Bild-Export ###
 Wird ein Programm als Bild gespeichert, wird das Bild auf die Programmgröße zugeschnitten und mit transparentem Hintergrund gespeichert.
@@ -51,15 +51,12 @@ Die wichtigsten Funktionen in ArduBlock sind nun über Shortkeys erreichbar (Str
 - Programm hochladen → Strg+U
 - Seriellen Monitor öffnen → Strg+M
 - Bild speichern → Strg+P
-- Programm vergrößern → Strg+Plus
-- Programm verkleinern → Strg+Minus
-- Programmgröße zurücksetzen → Strg+Null
-- Blöcke klonen → Strg+REchtsklick
+- Blöcke klonen → Strg+Rechtsklick
 
 ## Installation in der Arduino IDE ##
 1. [Arduino IDE](https://www.arduino.cc/en/Main/Software) für das eigene Betriebssystem herunterladen (Installations- oder Zip-Version)
 2. ArduBlock2 als ZIP herunterladen und ArduBlockTool-Ordner entpacken
-3.a INSTALLATION: Im Home-Verzeichnis (Sketchbook) der Arduino IDE "tools"-Ordner erstellen und ArduBlockTool-Ordner in das Verzeichnis kopieren
-3.b ZIP-Version: ArduBlockTool-Ordner in das "tools"-Verzeichnis der Arduino IDE kopieren (der "tools"-Ordner liegt im Hauptverzeichnis der Arduino IDE)
+3. a) INSTALLATION: Im Home-Verzeichnis (Sketchbook) der Arduino IDE "tools"-Ordner erstellen und ArduBlockTool-Ordner in das Verzeichnis kopieren
+3. b) ZIP-Version: ArduBlockTool-Ordner in das "tools"-Verzeichnis der Arduino IDE kopieren (der "tools"-Ordner liegt im Hauptverzeichnis der Arduino IDE)
 4. *Wenn die Q-Touch-Funktionen verwendet werden sollen, wird die [LGI-QTouch Library](https://github.com/letsgoING/Libraries) benötigt.*
 5. *Wenn die NeoPixel-Blöcke verwendet werden sollen, wird auch noch die [NeoPixel-Library](https://github.com/adafruit/Adafruit\_NeoPixel/archive/master.zip) von Adafruit benötigt.*
