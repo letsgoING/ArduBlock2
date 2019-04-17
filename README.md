@@ -54,7 +54,7 @@ Die wichtigsten Funktionen in ArduBlock sind nun über Shortkeys erreichbar (Str
 - Programm vergrößern → Strg+Plus
 - Programm verkleinern → Strg+Minus
 - Programmgröße zurücksetzen → Strg+Null
-- Blöcke klonen → Strg+REchtsklick
+- Blöcke klonen → Strg+Rechtsklick
 
 ## Installation in der Arduino IDE ##
 1. [Arduino IDE](https://www.arduino.cc/en/Main/Software) für das eigene Betriebssystem herunterladen (Installations- oder Zip-Version)
