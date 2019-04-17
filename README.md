@@ -1,14 +1,14 @@
 # ArduBlock 2 letsgoING #
 
-Aktuelle ArduBlock Version 2.03 für das [letsgoING-Projekt](http://letsgoing.org).
-Getestet mit Arduino 1.8.7.
+Aktuelle ArduBlock Version 2.10 für das [letsgoING-Projekt](http://letsgoing.org).
+Getestet mit Arduino 1.8.9
 
 ## Neuerungen in der Version 2 ##
 
 ### Standard und Experten Modus ###
-Die größte Neuerung ist die Einführung zweier verschiedener Block-Menüs.
+Seit Version 2 gibt es zwei verschiedene Block-Menüs.
 #### Standard-Blöcke ####
-Das Standard-Menü enthält nur die für den Einstieg wichtigsten Blöcke.
+Das Standard-Menü enthält die für den Einstieg wichtigsten Blöcke.
 Die Blöcke sind auf den Grundlagenkurs von [letsgoING](http://letsgoing.org) zugeschnitten.
 #### Experten-Blöcke ####
 Die Experten-Blöcke beinhalten alle Standard-Blöcke und viele zusätzliche Funktionen.
@@ -16,32 +16,45 @@ Es können z.B. Unterprogramme erstellt, Interrupts genutzt und Servos oder Schr
 Die Variablen werden um neue Datentypen ergänzt, es gibt mehr Möglichkeiten für die serielle Kommunikation und es kann geschriebener Code eingefügt werden.
 
 ### Variablen-System ###
-Es gibt seit dieser Version
+Es gibt
 - digitale Variablen (bool) *Standard*
 - analoge Variablen (int16) *Standard*
 - kurze analoge Variablen (int8)
 - lange analoge Variablen (long)
 - dezimale analoge Variablen (float)
-- Tabellen für analoge Variablen (int16-Array)
+- Zeichen-Variablen (char) 
+- Tabellen für (kurze/lange/dezimale) analoge Variablen (intX/float-Array)
+- Zeichenketten (char-Array)
 
 Alle Variablen können als
 1. globale Variable
 2. lokale Variable
 3. Konstante
-
 verwendet werden.
-
-Außerdem können die analogen Variablen in jeweils andere Variablen-Typen gewandelt werden (cast).
+Außerdem können die Datentypen in jeweils andere Typen gewandelt werden (cast → im Experten-Menü).
 
 ### Workspace zoomen ###
-In unserer Version von ArduBlock ist es jetzt möglich die Programmierfläche zu vergrößern oder verkleinern.
-So kann das Fenster immer der Programmgröße angepasst werden.
-
-**Achtung:** Wenn Blöcke geklont werden, passen diese sich noch nicht automatisch dem Zoom-Faktor an. Durch erneutes Zoomen lassen sich die Blöcke aber anpassen.
+In unserer Version von ArduBlock ist es möglich die Programmierfläche zu vergrößern oder verkleinern.
+So kann das Fenster immer der Programmgröße und Auflösung angepasst werden.
 
 ### Bild-Export ###
 Wird ein Programm als Bild gespeichert, wird das Bild auf die Programmgröße zugeschnitten und mit transparentem Hintergrund gespeichert.
 
+### Copy-Paste ###
+Über die Kopieren- und Einfügen-Schaltflächen lassen sich Programme zwischen verschiedenen ArduBlock-Fenstern übertragen.
+
+### ShortKeys ###
+Die wichtigsten Funktionen in ArduBlock sind nun über Shortkeys erreichbar (Strg+TASTE).
+- Programm öffnen → Strg+O
+- Programm speichern → Strg+S
+- neues Programm → Strg+N
+- Programm hochladen → Strg+U
+- Seriellen Monitor öffnen → Strg+M
+- Bild speichern → Strg+P
+- Programm vergrößern → Strg+Plus
+- Programm verkleinern → Strg+Minus
+- Programmgröße zurücksetzen → Strg+Null
+- Blöcke klonen → Strg+REchtsklick
 
 ## Installation in der Arduino IDE ##
 1. [Arduino IDE](https://www.arduino.cc/en/Main/Software) für das eigene Betriebssystem herunterladen (Installations- oder Zip-Version)
