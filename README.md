@@ -60,3 +60,7 @@ Die wichtigsten Funktionen in ArduBlock sind nun über Shortkeys erreichbar (Str
 3. b) ZIP-Version: ArduBlockTool-Ordner in das "tools"-Verzeichnis der Arduino IDE kopieren (der "tools"-Ordner liegt im Hauptverzeichnis der Arduino IDE)
 4. *Wenn die Q-Touch-Funktionen verwendet werden sollen, wird die [LGI-QTouch Library](https://github.com/letsgoING/Libraries) benötigt.*
 5. *Wenn die NeoPixel-Blöcke verwendet werden sollen, wird auch noch die [NeoPixel-Library](https://github.com/adafruit/Adafruit\_NeoPixel/archive/master.zip) von Adafruit benötigt.*
+
+## Source code ##
+
+Der Source Code für ArduBlock2 ist in einem eigenen Repository zu finden: [ArduBlock2-Source](https://github.com/letsgoING/ArduBlock2-Source).
