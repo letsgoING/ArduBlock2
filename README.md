@@ -1,7 +1,10 @@
 # ArduBlock 2 letsgoING #
 
-Aktuelle ArduBlock Version 2.1 für das [letsgoING-Projekt](http://letsgoing.org).
+ArduBlock Version 2.1 für das [letsgoING-Projekt](http://letsgoing.org).
 Getestet mit Arduino 1.8.9
+
+Letzte Version ohne den letsgoING-Simulator.
+
 
 ## Neuerungen in der Version 2 ##
 
