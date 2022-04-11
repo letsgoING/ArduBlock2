@@ -5,6 +5,9 @@ Getestet mit Arduino 1.8.9
 
 Letzte Version ohne den letsgoING-Simulator.
 
+''ACHTUNG:'' Alle neuen Versionen von ArduBlock werden auf unserem Gitlab-Server gehostet:
+         https://gitlab.reutlingen-university.de/letsgoing
+
 
 ## Neuerungen in der Version 2 ##
 
